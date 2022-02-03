@@ -1,0 +1,21 @@
+\babel@toc {russian}{}
+\contentsline {chapter}{Введение}{2}%
+\contentsline {chapter}{\numberline {1}Аналитическая часть}{3}%
+\contentsline {section}{\numberline {1.1}Волновой процесс}{3}%
+\contentsline {section}{\numberline {1.2}Методы визуализации волн}{4}%
+\contentsline {subsection}{\numberline {1.2.1}Процедурные методы}{4}%
+\contentsline {subsection}{\numberline {1.2.2}Методы на основе частиц}{5}%
+\contentsline {subsection}{\numberline {1.2.3}Метод поля высот}{7}%
+\contentsline {section}{\numberline {1.3}Существующие программные обеспечения}{8}%
+\contentsline {section}{\numberline {1.4}Модели волны и предмета}{9}%
+\contentsline {subsection}{\numberline {1.4.1}Модель волны}{9}%
+\contentsline {subsection}{\numberline {1.4.2}Модель предмета}{10}%
+\contentsline {section}{\numberline {1.5}Анализ алгоритмов удаления невидимых линий и поверхностей}{11}%
+\contentsline {subsection}{\numberline {1.5.1}Алгоритм Робертса}{11}%
+\contentsline {subsection}{\numberline {1.5.2}Алгоритм, использующий Z-буфер}{12}%
+\contentsline {subsection}{\numberline {1.5.3}Алгоритм обратной трассировки}{13}%
+\contentsline {section}{\numberline {1.6}Анализ методов закрашивания}{14}%
+\contentsline {subsection}{\numberline {1.6.1}Простая закраска}{14}%
+\contentsline {subsection}{\numberline {1.6.2}Закраска по Гуро}{14}%
+\contentsline {subsection}{\numberline {1.6.3}Закраска по Фонгу}{15}%
+\contentsline {chapter}{Литература}{17}%
