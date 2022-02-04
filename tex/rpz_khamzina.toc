@@ -4,13 +4,13 @@
 \contentsline {section}{\numberline {1.1}Актуальность}{2}%
 \contentsline {section}{\numberline {1.2}Основные определения}{2}%
 \contentsline {section}{\numberline {1.3}Вывод}{3}%
-\contentsline {chapter}{\numberline {2}Классификация существующих\linebreak методов решения}{4}%
+\contentsline {chapter}{\numberline {2}Классификация существующих методов}{4}%
 \contentsline {section}{\numberline {2.1}Методы решения}{4}%
 \contentsline {subsection}{\numberline {2.1.1}Методы, требующие перезагрузки системы}{4}%
-\contentsline {subsection}{\numberline {2.1.2}Метод переноса}{4}%
-\contentsline {subsection}{\numberline {2.1.3}Динамические методы}{5}%
-\contentsline {section}{\numberline {2.2}Критерии оценки методов}{6}%
-\contentsline {section}{\numberline {2.3}Сравнение методов}{6}%
-\contentsline {section}{\numberline {2.4}Вывод}{7}%
-\contentsline {chapter}{Выводы}{8}%
-\contentsline {chapter}{Литература}{9}%
+\contentsline {subsection}{\numberline {2.1.2}Метод переноса}{6}%
+\contentsline {subsection}{\numberline {2.1.3}Динамические методы}{7}%
+\contentsline {section}{\numberline {2.2}Критерии оценки методов}{8}%
+\contentsline {section}{\numberline {2.3}Сравнение методов}{8}%
+\contentsline {section}{\numberline {2.4}Вывод}{8}%
+\contentsline {chapter}{Выводы}{9}%
+\contentsline {chapter}{Литература}{10}%
