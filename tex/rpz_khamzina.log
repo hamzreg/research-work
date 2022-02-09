@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.5)  9 FEB 2022 05:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.5)  10 FEB 2022 02:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -883,10 +883,50 @@ File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks37
 \c@AM@survey=\count289
 \AM@templatesizebox=\box64
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip54
+\cftbeforetoctitleskip=\skip55
+\cftaftertoctitleskip=\skip56
+\cftbeforepartskip=\skip57
+\cftpartnumwidth=\skip58
+\cftpartindent=\skip59
+\cftbeforechapskip=\skip60
+\cftchapindent=\skip61
+\cftchapnumwidth=\skip62
+\cftbeforesecskip=\skip63
+\cftsecindent=\skip64
+\cftsecnumwidth=\skip65
+\cftbeforesubsecskip=\skip66
+\cftsubsecindent=\skip67
+\cftsubsecnumwidth=\skip68
+\cftbeforesubsubsecskip=\skip69
+\cftsubsubsecindent=\skip70
+\cftsubsubsecnumwidth=\skip71
+\cftbeforeparaskip=\skip72
+\cftparaindent=\skip73
+\cftparanumwidth=\skip74
+\cftbeforesubparaskip=\skip75
+\cftsubparaindent=\skip76
+\cftsubparanumwidth=\skip77
+\cftbeforeloftitleskip=\skip78
+\cftafterloftitleskip=\skip79
+\cftbeforefigskip=\skip80
+\cftfigindent=\skip81
+\cftfignumwidth=\skip82
+\c@lofdepth=\count290
+\c@lotdepth=\count291
+\cftbeforelottitleskip=\skip83
+\cftafterlottitleskip=\skip84
+\cftbeforetabskip=\skip85
+\cfttabindent=\skip86
+\cfttabnumwidth=\skip87
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count290
+\l__kernel_color_stack_int=\count292
 \l__pdf_internal_box=\box65
 )
 (./rpz_khamzina.aux (./contents.aux)
@@ -953,16 +993,16 @@ LaTeX Font Info:    ... okay on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count291
+\scratchcounter=\count293
 \scratchdimen=\dimen283
 \scratchbox=\box66
-\nofMPsegments=\count292
-\nofMParguments=\count293
+\nofMPsegments=\count294
+\nofMParguments=\count295
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count294
+\MPscratchCnt=\count296
 \MPscratchDim=\dimen284
-\MPnumerator=\count295
-\makeMPintoPDFobject=\count296
+\MPnumerator=\count297
+\makeMPintoPDFobject=\count298
 \everyMPtoPDFconversion=\toks39
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -994,13 +1034,12 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
  (./contents.tex
 (./rpz_khamzina.toc
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 4.
+(Font)              <7> on input line 2.
 )
 \tf@toc=\write4
 \openout4 = `rpz_khamzina.toc'.
 
-) [0
-
+) [3
 
 
 
@@ -1009,7 +1048,7 @@ LaTeX Font Info:    External font `cmex7' loaded for size
 \openout2 = `introduction.aux'.
 
 
-(./introduction.tex) [1
+(./introduction.tex) [4
 
 
 
@@ -1018,7 +1057,7 @@ LaTeX Font Info:    External font `cmex7' loaded for size
 
  (./analysis.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
-[2
+[5
 
 
 
@@ -1026,12 +1065,12 @@ LaTeX Font Info:    External font `cmex7' loaded for size
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/call-stack.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<img/call-stack.pdf, id=19, 421.575pt x 301.125pt>
+<img/call-stack.pdf, id=21, 421.575pt x 301.125pt>
 File: img/call-stack.pdf Graphic file (type pdf)
 <use img/call-stack.pdf>
 Package pdftex.def Info: img/call-stack.pdf  used on input line 23.
 (pdftex.def)             Requested size: 379.41399pt x 271.00998pt.
-) [3 <./img/call-stack.pdf>]
+) [6 <./img/call-stack.pdf>]
 \openout2 = `methods.aux'.
 
  (./methods.tex
@@ -1040,7 +1079,7 @@ Package pdftex.def Info: img/call-stack.pdf  used on input line 23.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/downtime.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<img/downtime.pdf, id=37, 722.7pt x 218.7372pt>
+<img/downtime.pdf, id=39, 722.7pt x 218.7372pt>
 File: img/downtime.pdf Graphic file (type pdf)
 <use img/downtime.pdf>
 Package pdftex.def Info: img/downtime.pdf  used on input line 31.
@@ -1050,7 +1089,7 @@ Overfull \hbox (22.18968pt too wide) in paragraph at lines 31--32
  [] 
  []
 
-[4
+[7
 
 
 
@@ -1058,7 +1097,7 @@ Overfull \hbox (22.18968pt too wide) in paragraph at lines 31--32
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/checkpoint.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<img/checkpoint.pdf, id=43, 722.7pt x 146.4672pt>
+<img/checkpoint.pdf, id=44, 722.7pt x 146.4672pt>
 File: img/checkpoint.pdf Graphic file (type pdf)
 <use img/checkpoint.pdf>
 Package pdftex.def Info: img/checkpoint.pdf  used on input line 57.
@@ -1068,37 +1107,37 @@ Overfull \hbox (22.18968pt too wide) in paragraph at lines 57--58
  [] 
  []
 
-[5 <./img/downtime.pdf>]
+[8 <./img/downtime.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/shadow-reboot.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<img/shadow-reboot.pdf, id=56, 650.43pt x 291.00719pt>
+<img/shadow-reboot.pdf, id=57, 650.43pt x 291.00719pt>
 File: img/shadow-reboot.pdf Graphic file (type pdf)
 <use img/shadow-reboot.pdf>
 Package pdftex.def Info: img/shadow-reboot.pdf  used on input line 76.
 (pdftex.def)             Requested size: 455.2979pt x 203.70363pt.
-[6 <./img/checkpoint.pdf>] [7 <./img/shadow-reboot.pdf>]
+[9 <./img/checkpoint.pdf>] [10 <./img/shadow-reboot.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/vm.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<img/vm.pdf, id=80, 433.62pt x 291.00719pt>
+<img/vm.pdf, id=81, 433.62pt x 291.00719pt>
 File: img/vm.pdf Graphic file (type pdf)
 <use img/vm.pdf>
 Package pdftex.def Info: img/vm.pdf  used on input line 99.
 (pdftex.def)             Requested size: 346.89647pt x 232.80606pt.
-[8 <./img/vm.pdf>]
+[11 <./img/vm.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/dynamic.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<img/dynamic.pdf, id=93, 361.35pt x 363.27718pt>
+<img/dynamic.pdf, id=94, 361.35pt x 363.27718pt>
 File: img/dynamic.pdf Graphic file (type pdf)
 <use img/dynamic.pdf>
 Package pdftex.def Info: img/dynamic.pdf  used on input line 118.
 (pdftex.def)             Requested size: 289.0804pt x 290.62213pt.
-[9 <./img/dynamic.pdf>] [10]) [11]
+[12 <./img/dynamic.pdf>] [13]) [14]
 \openout2 = `conclusion.aux'.
 
- (./conclusion.tex) [12
+ (./conclusion.tex) [15
 
 
 
@@ -1123,33 +1162,34 @@ Underfull \hbox (badness 2452) in paragraph at lines 68--71
 Kernel
  []
 
-)) [13
+)) [16
 
 
 
 ] (./rpz_khamzina.aux (./contents.aux) (./introduction.aux)
 (./analysis.aux) (./methods.aux) (./conclusion.aux) (./biblio.aux)) ) 
 Here is how much of TeX's memory you used:
- 28212 strings out of 482080
- 718991 string characters out of 5941728
- 1080890 words of memory out of 5000000
- 42749 multiletter control sequences out of 15000+600000
- 541349 words of font info for 39 fonts, out of 8000000 for 9000
+ 28488 strings out of 482080
+ 723125 string characters out of 5941728
+ 1086134 words of memory out of 5000000
+ 43019 multiletter control sequences out of 15000+600000
+ 542975 words of font info for 41 fonts, out of 8000000 for 9000
  766 hyphenation exceptions out of 8191
  78i,8n,107p,1314b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/re
 gina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/re
 gina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/re
+gina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2074.600pk> </home/re
 gina/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1440.600pk> </home/
-regina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2074.600pk> </home/
+regina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2488.600pk> </home/
 regina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk> </home/
 regina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/
-regina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2488.600pk></usr/sh
+regina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx3583.600pk></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-Output written on rpz_khamzina.pdf (14 pages, 299852 bytes).
+Output written on rpz_khamzina.pdf (14 pages, 308528 bytes).
 PDF statistics:
- 424 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
+ 441 PDF objects out of 1000 (max. 8388607)
+ 113 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
