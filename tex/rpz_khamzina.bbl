@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\language\csname l@#1\endcsname\fi}
@@ -20,18 +20,61 @@ Overview of Dynamic Operating System’s Kernel Hooking Methods (Study Case of
   \url{https://www.flow3d.com/modeling-capabilities/waves/} (дата
   обращения: 04.10.2021).
 
-\bibitem{reboot}
+\bibitem{dwarf}
 \selectlanguageifdefined{russian}
-Shortening Downtime of Reboot-Based Kernel Updates Using Dwarf.
-\newblock Режим доступа:
-  \url{https://www.flow3d.com/modeling-capabilities/waves/} (дата
-  обращения: 04.10.2021).
+Terada~Ken, Yamada~Hiroshi. Shortening Downtime of Reboot-Based Kernel Updates
+  Using Dwarf~// IEICE Transactions on Information and Systems.
+\newblock 2018.  12.
+\newblock {С.}~2991--3004.
 
-\bibitem{dynamic}
+\bibitem{kup}
 \selectlanguageifdefined{russian}
-Rebootless Security Patches for the Linux Kernel.
-\newblock Режим доступа:
-  \url{https://www.flow3d.com/modeling-capabilities/waves/} (дата
-  обращения: 04.10.2021).
+Instant {OS} Updates via Userspace {Checkpoint-and-Restart}~/ Sanidhya~Kashyap,
+  Changwoo~Min, Byoungyoung~Lee {[и~др.]}~// USENIX Annual Technical
+  Conference (USENIX ATC 16).
+\newblock 2016.  06.
+\newblock {С.}~605--619.
+
+\bibitem{seamless}
+\selectlanguageifdefined{russian}
+Siniavine~Maxim, Goel~Ashvin. Seamless kernel updates~// Proceedings of the
+  International Conference on Dependable Systems and Networks.
+\newblock 2013.  06.
+\newblock {С.}~1--12.
+
+\bibitem{shadow}
+\selectlanguageifdefined{russian}
+Yamada~Hiroshi, Kono~Kenji. Traveling Forward in Time to Newer Operating
+  Systems using ShadowReboot~// ACM SIGPLAN Notices.
+\newblock 2011.  07.
+
+\bibitem{autopod}
+\selectlanguageifdefined{russian}
+Potter~Shaya, Nieh~Jason. Reducing downtime due to system maintenance and
+  upgrades.
+\newblock 2005.  01.
+\newblock {С.}~6--6.
+
+\bibitem{lucos}
+\selectlanguageifdefined{russian}
+Live updating operating systems using virtualization~/ Haibo~Chen, Rong~Chen,
+  Fengzhe~Zhang {[и~др.]}~// VEE 2006 - Proceedings of the Second
+  International Conference on Virtual Execution Environments.
+\newblock 2006.  06.
+\newblock {С.}~35--44.
+
+\bibitem{ksplice}
+\selectlanguageifdefined{russian}
+Kaashoek~M., Arnold~Jeffrey. Ksplice: Automatic Rebootless Kernel Updates~//
+  Frans Kaashoek.
+\newblock 2009.  01.
+
+\bibitem{dynamos}
+\selectlanguageifdefined{russian}
+Makris~Kristis, Ryu~Kyung. Dynamic and adaptive updates of non-quiescent
+  subsystems in commodity operating system kernels~// Operating Systems Review
+  - SIGOPS.
+\newblock 2007.  06.
+\newblock {С.}~327--340.
 
 \end{thebibliography}

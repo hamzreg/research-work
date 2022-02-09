@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.5)  4 FEB 2022 03:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.5)  9 FEB 2022 05:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1056,55 +1056,87 @@ Overfull \hbox (22.18968pt too wide) in paragraph at lines 31--32
 
 ]
 
-pdfTeX warning: /usr/bin/pdflatex (file ./img/seemless.pdf): PDF inclusion: fou
-nd PDF version <1.7>, but at most version <1.5> allowed
-<img/seemless.pdf, id=43, 722.7pt x 218.7372pt>
-File: img/seemless.pdf Graphic file (type pdf)
-<use img/seemless.pdf>
-Package pdftex.def Info: img/seemless.pdf  used on input line 54.
-(pdftex.def)             Requested size: 505.88655pt x 153.11497pt.
+pdfTeX warning: /usr/bin/pdflatex (file ./img/checkpoint.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.5> allowed
+<img/checkpoint.pdf, id=43, 722.7pt x 146.4672pt>
+File: img/checkpoint.pdf Graphic file (type pdf)
+<use img/checkpoint.pdf>
+Package pdftex.def Info: img/checkpoint.pdf  used on input line 57.
+(pdftex.def)             Requested size: 505.88655pt x 102.52632pt.
 
-Overfull \hbox (22.18968pt too wide) in paragraph at lines 54--55
+Overfull \hbox (22.18968pt too wide) in paragraph at lines 57--58
  [] 
  []
 
-[5 <./img/downtime.pdf>] [6 <./img/seemless.pdf>] [7]) [8]
+[5 <./img/downtime.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/shadow-reboot.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<img/shadow-reboot.pdf, id=56, 650.43pt x 291.00719pt>
+File: img/shadow-reboot.pdf Graphic file (type pdf)
+<use img/shadow-reboot.pdf>
+Package pdftex.def Info: img/shadow-reboot.pdf  used on input line 76.
+(pdftex.def)             Requested size: 455.2979pt x 203.70363pt.
+[6 <./img/checkpoint.pdf>] [7 <./img/shadow-reboot.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/vm.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<img/vm.pdf, id=80, 433.62pt x 291.00719pt>
+File: img/vm.pdf Graphic file (type pdf)
+<use img/vm.pdf>
+Package pdftex.def Info: img/vm.pdf  used on input line 99.
+(pdftex.def)             Requested size: 346.89647pt x 232.80606pt.
+[8 <./img/vm.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/dynamic.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<img/dynamic.pdf, id=93, 361.35pt x 363.27718pt>
+File: img/dynamic.pdf Graphic file (type pdf)
+<use img/dynamic.pdf>
+Package pdftex.def Info: img/dynamic.pdf  used on input line 118.
+(pdftex.def)             Requested size: 289.0804pt x 290.62213pt.
+[9 <./img/dynamic.pdf>] [10]) [11]
 \openout2 = `conclusion.aux'.
 
- (./conclusion.tex)
-[9
+ (./conclusion.tex) [12
 
 
 
 ]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex (./rpz_khamzina.bbl
-Underfull \hbox (badness 6047) in paragraph at lines 32--36
-[]\T2A/cmr/m/n/14.4 Rebootless Security Patches for the Linux Kernel.  –е-жим д
-о-
+ (./biblio.tex
+(./rpz_khamzina.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 32--37
+[]\T2A/cmr/m/n/14.4 Instant OS Updates via Userspace Checkpoint-and-Restart /
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 32--36
-\T2A/cmr/m/n/14.4 сту-па: \T2A/cmr/m/n/12 https://www.flow3d.com/modeling-capab
-ilities/waves/ \T2A/cmr/m/n/14.4 (да-та об-ра-ще-ни€:
+Underfull \hbox (badness 1742) in paragraph at lines 60--65
+[]\T2A/cmr/m/n/14.4 Live updating operating systems using virtualization / Haib
+o Chen,
  []
 
-)) [10
+
+Underfull \hbox (badness 2452) in paragraph at lines 68--71
+[]\T2A/cmr/m/n/14.4 Kaashoek M., Arnold Jeffrey. Ksplice: Automatic Rebootless 
+Kernel
+ []
+
+)) [13
 
 
 
 ] (./rpz_khamzina.aux (./contents.aux) (./introduction.aux)
 (./analysis.aux) (./methods.aux) (./conclusion.aux) (./biblio.aux)) ) 
 Here is how much of TeX's memory you used:
- 28183 strings out of 482080
- 718464 string characters out of 5941728
- 1080822 words of memory out of 5000000
- 42723 multiletter control sequences out of 15000+600000
+ 28212 strings out of 482080
+ 718991 string characters out of 5941728
+ 1080890 words of memory out of 5000000
+ 42749 multiletter control sequences out of 15000+600000
  541349 words of font info for 39 fonts, out of 8000000 for 9000
  766 hyphenation exceptions out of 8191
- 78i,7n,107p,1314b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 78i,8n,107p,1314b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/re
 gina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/re
 gina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/re
@@ -1114,10 +1146,10 @@ regina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk> </home/
 regina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/
 regina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2488.600pk></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-Output written on rpz_khamzina.pdf (11 pages, 203731 bytes).
+Output written on rpz_khamzina.pdf (14 pages, 299852 bytes).
 PDF statistics:
- 366 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 424 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
