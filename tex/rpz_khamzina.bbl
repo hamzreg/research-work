@@ -7,74 +7,149 @@
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
 
-\bibitem{love}
+\bibitem{open-source}
 \selectlanguageifdefined{russian}
-Love~Robert. Linux System Programming.
-\newblock 2013.
+Alami~Adam. The sustainability of quality in free and open source software~//
+  New York, Proceedings of the ACM/IEEE 42nd International Conference on
+  Software Engineering: Companion Proceedings.
+\newblock 2020.  06.
+\newblock {С.}~222--225.
+\newblock URL:
+  \url{https://www.researchgate.net/publication/346043137\_The\_sustainability\_of\_quality\_\\in\_free\_and\_open\_source\_software}.
+
+\bibitem{statistics}
+\selectlanguageifdefined{russian}
+Linux Kernel History Report 2020~/ The Linux Foundation.
+\newblock San Francisco: The Linux Foundation, 2020.  08.
+\newblock URL:
+  \url{https://www.linuxfoundation.org/tools/linux-kernel-history-report-2020/}.
+
+\bibitem{linux}
+\selectlanguageifdefined{russian}
+Fox~Richard. Linux with Operating System Concepts.
+\newblock London: Chapman and Hall/CRC, 2021.  11.
+\newblock {С.}~1--620.
+\newblock URL:
+  \url{https://www.researchgate.net/publication/355948100\_Linux\_with\_Operating\_System\\\_Concepts}.
+
+\bibitem{modules}
+\selectlanguageifdefined{russian}
+Zhen~Yanjie, Zhang~Wei. Is It Possible to Automatically Port Kernel Modules?~//
+  New York, APSys '18: Proceedings of the 9th Asia-Pacific Workshop on Systems.
+\newblock 2018.  08.
+\newblock {С.}~1--8.
+\newblock URL:
+  \url{https://www.researchgate.net/publication/327811028\_Is\_It\_Possible\_to\_Automatically\\\_Port\_Kernel\_Modules}.
 
 \bibitem{patching}
 \selectlanguageifdefined{russian}
-Overview of Dynamic Operating System’s Kernel Hooking Methods (Study Case of
-  Linux Kernel).
-\newblock Режим доступа:
-  \url{https://www.flow3d.com/modeling-capabilities/waves/} (дата
-  обращения: 04.10.2021).
+Koyuncu~Anil, Bissyandé~Tegawendé. Impact of Tool Support in Patch
+  Construction~// New York, roceedings of the 26th ACM SIGSOFT International
+  Symposium on Software Testing and Analysis.
+\newblock 2017.  07.
+\newblock {с.}~237–248.
+\newblock URL: \url{https://dl.acm.org/doi/10.1145/3092703.3092713}.
+
+\bibitem{lucos}
+\selectlanguageifdefined{russian}
+Chen~Haibo, Chen~Rong, Zhang~Fengzhe. Live updating operating systems using
+  virtualization~// Ottawa, Proceedings of the Second International Conference
+  on Virtual Execution Environments.
+\newblock 2006.  06.
+\newblock {С.}~35--44.
+\newblock URL:
+  \url{https://www.researchgate.net/publication/221137837\_Live\_updating\_operating\_systems\\\_using\_virtualization}.
 
 \bibitem{dwarf}
 \selectlanguageifdefined{russian}
 Terada~Ken, Yamada~Hiroshi. Shortening Downtime of Reboot-Based Kernel Updates
-  Using Dwarf~// IEICE Transactions on Information and Systems.
+  Using Dwarf~// Tokyo, IEICE Transactions on Information and Systems.
 \newblock 2018.  12.
 \newblock {С.}~2991--3004.
-
-\bibitem{kup}
-\selectlanguageifdefined{russian}
-Instant {OS} Updates via Userspace {Checkpoint-and-Restart}~/ Sanidhya~Kashyap,
-  Changwoo~Min, Byoungyoung~Lee {[и~др.]}~// USENIX Annual Technical
-  Conference (USENIX ATC 16).
-\newblock 2016.  06.
-\newblock {С.}~605--619.
+\newblock URL:
+  \url{https://www.researchgate.net/publication/\\329349663\_Shortening\_Downtime\_of\_Reboot-Based\_Kernel\_Updates\_Using\_Dwarf}.
 
 \bibitem{seamless}
 \selectlanguageifdefined{russian}
-Siniavine~Maxim, Goel~Ashvin. Seamless kernel updates~// Proceedings of the
-  International Conference on Dependable Systems and Networks.
+Siniavine~Maxim, Goel~Ashvin. Seamless kernel updates~// Budapest, Proceedings
+  of the International Conference on Dependable Systems and Networks.
 \newblock 2013.  06.
 \newblock {С.}~1--12.
+\newblock URL:
+  \url{https://www.researchgate.net/publication/261452974\_Seamless\_kernel\_updates}.
+
+\bibitem{kup}
+\selectlanguageifdefined{russian}
+Sanidhya~Kashyap~Changwoo~Min~Byoungyoung~Lee. Instant OS Updates via Userspace
+  Checkpoint-and-Restart~// Denver, USENIX Annual Technical Conference (USENIX
+  ATC 16).
+\newblock 2016.  06.
+\newblock {С.}~605--619.
+\newblock URL:
+  \url{https://www.usenix.org/conference/atc16/technical-sessions/presentation/kashyap}.
+
+\bibitem{checkpoint}
+\selectlanguageifdefined{russian}
+Begunkov~Pavel. Checkpoint and Restore of File Locks in Userspace~// New York,
+  CEE-SECR '17: Proceedings of the 13th Central and Eastern European Software
+  Engineering Conference in Russia.
+\newblock 2017.  10.
+\newblock {С.}~1--4.
+\newblock URL:
+  \url{https://www.researchgate.net/publication/322260073\_Checkpoint\_and\_restore\_of\_file\\\_locks\_in\_userspace}.
 
 \bibitem{shadow}
 \selectlanguageifdefined{russian}
 Yamada~Hiroshi, Kono~Kenji. Traveling Forward in Time to Newer Operating
-  Systems using ShadowReboot~// ACM SIGPLAN Notices.
-\newblock 2011.  07.
+  Systems using ShadowReboot~// New York, ACM SIGPLAN Notices.
+\newblock 2013.  03.
+\newblock {С.}~121--130.
+\newblock URL: \url{https://dl.acm.org/doi/10.1145/2451512.2451536}.
+
+\bibitem{vm}
+\selectlanguageifdefined{russian}
+Lagar-Cavilla~H.~Andrés, Whitney. SnowFlock: Rapid Virtual Machine Cloning for
+  Cloud Computing~// New York, Proceedings of the 4th ACM European Conference
+  on Computer Systems, EuroSys'09.
+\newblock 2009.  01.
+\newblock {С.}~1--12.
+\newblock URL:
+  \url{https://www.researchgate.net/publication/221351721\_SnowFlock\_Rapid\_Virtual\_\\Machine\_Cloning\_for\_Cloud\_Computing}.
 
 \bibitem{autopod}
 \selectlanguageifdefined{russian}
 Potter~Shaya, Nieh~Jason. Reducing downtime due to system maintenance and
-  upgrades.
-\newblock 2005.  01.
+  upgrades~// San Diego, LISA '05: Proceedings of the 19th conference on Large
+  Installation System Administration Conference.
+\newblock 2005.  12.
 \newblock {С.}~6--6.
-
-\bibitem{lucos}
-\selectlanguageifdefined{russian}
-Live updating operating systems using virtualization~/ Haibo~Chen, Rong~Chen,
-  Fengzhe~Zhang {[и~др.]}~// VEE 2006 - Proceedings of the Second
-  International Conference on Virtual Execution Environments.
-\newblock 2006.  06.
-\newblock {С.}~35--44.
-
-\bibitem{ksplice}
-\selectlanguageifdefined{russian}
-Kaashoek~M., Arnold~Jeffrey. Ksplice: Automatic Rebootless Kernel Updates~//
-  Frans Kaashoek.
-\newblock 2009.  01.
+\newblock URL: \url{https://dl.acm.org/doi/10.5555/1251150.1251156}.
 
 \bibitem{dynamos}
 \selectlanguageifdefined{russian}
 Makris~Kristis, Ryu~Kyung. Dynamic and adaptive updates of non-quiescent
-  subsystems in commodity operating system kernels~// Operating Systems Review
-  - SIGOPS.
+  subsystems in commodity operating system kernels~// Lisbon, Operating Systems
+  Review - SIGOPS.
 \newblock 2007.  06.
 \newblock {С.}~327--340.
+\newblock URL:
+  \url{https://www.researchgate.net/publication/221351757\_Dynamic\_and\_adaptive\_updates\\\_of\_non-quiescent\_subsystems\_in\_commodity\_operating\_system\_kernels}.
+
+\bibitem{ksplice}
+\selectlanguageifdefined{russian}
+Kaashoek~M., Arnold~Jeffrey. Ksplice: Automatic Rebootless Kernel Updates~//
+  Nuremberg, EuroSys '09: Fourth EuroSys Conference 2009.
+\newblock 2009.  04.
+\newblock {С.}~187--198.
+\newblock URL: \url{https://dl.acm.org/doi/10.1145/1519065.1519085}.
+
+\bibitem{binary}
+\selectlanguageifdefined{russian}
+Arras~Paul-Antoine, Andronidis. SaBRe: load-time selective binary rewriting~//
+  Berlin, International Journal on Software Tools for Technology Transfer.
+\newblock 2022.  01.
+\newblock {С.}~829--832.
+\newblock URL:
+  \url{https://www.researchgate.net/publication/358018186\_SaBRe\_load-time\_selective\_binary\_rewriting}.
 
 \end{thebibliography}

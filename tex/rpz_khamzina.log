@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.5)  10 FEB 2022 02:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.5)  10 FEB 2022 21:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -325,6 +325,24 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen150
+\captionmargin@=\dimen151
+\captionwidth=\dimen152
+\caption@tempdima=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count181
+\c@continuedfloat=\count182
+)
 (/usr/share/texlive/texmf-dist/tex/latex/svg/svg.sty
 Package: svg 2020/01/13 v2.02e (include SVG pictures)
 
@@ -373,12 +391,12 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen150
-\Gin@req@width=\dimen151
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
 )
 \svg@box=\box46
-\c@svg@param@lastpage=\count181
-\c@svg@param@currpage=\count182
+\c@svg@param@lastpage=\count183
+\c@svg@param@currpage=\count184
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -406,30 +424,11 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count183
+\c@float@type=\count185
 \float@exts=\toks17
 \float@box=\box47
 \@float@everytoks=\toks18
 \@floatcapt=\box48
-)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2020/01/03 v3.4h Customizing captions (AR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen152
-\captionmargin@=\dimen153
-\captionwidth=\dimen154
-\caption@tempdima=\dimen155
-\caption@indent=\dimen156
-\caption@parindent=\dimen157
-\caption@hangindent=\dimen158
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count184
-\c@continuedfloat=\count185
-Package caption Info: float package is loaded.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
@@ -929,15 +928,13 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count292
 \l__pdf_internal_box=\box65
 )
-(./rpz_khamzina.aux (./contents.aux)
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 6
+(./rpz_khamzina.aux
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 5
 .
-
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-(./introduction.aux) (./analysis.aux) (./methods.aux) (./conclusion.aux)
-(./biblio.aux))
+) (./contents.aux) (./introduction.aux) (./analysis.aux) (./methods.aux)
+(./conclusion.aux) (./biblio.aux))
 \openout1 = `rpz_khamzina.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -991,6 +988,9 @@ LaTeX Font Info:    ... okay on input line 5.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count293
@@ -1013,9 +1013,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
-
 ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.16} (current compat level: 1.9).
@@ -1029,10 +1026,105 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
+
+pdfTeX warning: /usr/bin/pdflatex (file ./rpz_title.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+<rpz_title.pdf, id=4, 597.55246pt x 845.07718pt>
+File: rpz_title.pdf Graphic file (type pdf)
+<use rpz_title.pdf>
+Package pdftex.def Info: rpz_title.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./rpz_title.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+File: rpz_title.pdf Graphic file (type pdf)
+<use rpz_title.pdf>
+Package pdftex.def Info: rpz_title.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./rpz_title.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./rpz_title.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+<rpz_title.pdf, id=7, page=1, 597.55246pt x 845.07718pt>
+File: rpz_title.pdf Graphic file (type pdf)
+<use rpz_title.pdf, page 1>
+Package pdftex.def Info: rpz_title.pdf , page1 used on input line 7.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: rpz_title.pdf Graphic file (type pdf)
+<use rpz_title.pdf, page 1>
+Package pdftex.def Info: rpz_title.pdf , page1 used on input line 7.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: rpz_title.pdf Graphic file (type pdf)
+<use rpz_title.pdf, page 1>
+Package pdftex.def Info: rpz_title.pdf , page1 used on input line 7.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: rpz_title.pdf Graphic file (type pdf)
+<use rpz_title.pdf, page 1>
+Package pdftex.def Info: rpz_title.pdf , page1 used on input line 7.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: rpz_title.pdf Graphic file (type pdf)
+<use rpz_title.pdf, page 1>
+Package pdftex.def Info: rpz_title.pdf , page1 used on input line 7.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+[0
+
+
+
+ <./rpz_title.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./tz_title.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<tz_title.pdf, id=62, 597.55246pt x 845.07718pt>
+File: tz_title.pdf Graphic file (type pdf)
+<use tz_title.pdf>
+Package pdftex.def Info: tz_title.pdf  used on input line 8.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./tz_title.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+File: tz_title.pdf Graphic file (type pdf)
+<use tz_title.pdf>
+Package pdftex.def Info: tz_title.pdf  used on input line 8.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./tz_title.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./tz_title.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<tz_title.pdf, id=65, page=1, 597.55246pt x 845.07718pt>
+File: tz_title.pdf Graphic file (type pdf)
+<use tz_title.pdf, page 1>
+Package pdftex.def Info: tz_title.pdf , page1 used on input line 8.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: tz_title.pdf Graphic file (type pdf)
+<use tz_title.pdf, page 1>
+Package pdftex.def Info: tz_title.pdf , page1 used on input line 8.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: tz_title.pdf Graphic file (type pdf)
+<use tz_title.pdf, page 1>
+Package pdftex.def Info: tz_title.pdf , page1 used on input line 8.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: tz_title.pdf Graphic file (type pdf)
+<use tz_title.pdf, page 1>
+Package pdftex.def Info: tz_title.pdf , page1 used on input line 8.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: tz_title.pdf Graphic file (type pdf)
+<use tz_title.pdf, page 1>
+Package pdftex.def Info: tz_title.pdf , page1 used on input line 8.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+[1 <./tz_title.pdf>]
 \openout2 = `contents.aux'.
 
- (./contents.tex
-(./rpz_khamzina.toc
+ (./contents.tex (./rpz_khamzina.toc
 LaTeX Font Info:    External font `cmex7' loaded for size
 (Font)              <7> on input line 2.
 )
@@ -1041,14 +1133,10 @@ LaTeX Font Info:    External font `cmex7' loaded for size
 
 ) [3
 
-
-
-
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 \openout2 = `introduction.aux'.
 
-
-(./introduction.tex) [4
+ (./introduction.tex) [4
 
 
 
@@ -1065,7 +1153,7 @@ LaTeX Font Info:    External font `cmex7' loaded for size
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/call-stack.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<img/call-stack.pdf, id=21, 421.575pt x 301.125pt>
+<img/call-stack.pdf, id=121, 421.575pt x 301.125pt>
 File: img/call-stack.pdf Graphic file (type pdf)
 <use img/call-stack.pdf>
 Package pdftex.def Info: img/call-stack.pdf  used on input line 23.
@@ -1079,7 +1167,7 @@ Package pdftex.def Info: img/call-stack.pdf  used on input line 23.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/downtime.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<img/downtime.pdf, id=39, 722.7pt x 218.7372pt>
+<img/downtime.pdf, id=139, 722.7pt x 218.7372pt>
 File: img/downtime.pdf Graphic file (type pdf)
 <use img/downtime.pdf>
 Package pdftex.def Info: img/downtime.pdf  used on input line 31.
@@ -1097,7 +1185,7 @@ Overfull \hbox (22.18968pt too wide) in paragraph at lines 31--32
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/checkpoint.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<img/checkpoint.pdf, id=44, 722.7pt x 146.4672pt>
+<img/checkpoint.pdf, id=145, 722.7pt x 146.4672pt>
 File: img/checkpoint.pdf Graphic file (type pdf)
 <use img/checkpoint.pdf>
 Package pdftex.def Info: img/checkpoint.pdf  used on input line 57.
@@ -1111,7 +1199,7 @@ Overfull \hbox (22.18968pt too wide) in paragraph at lines 57--58
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/shadow-reboot.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<img/shadow-reboot.pdf, id=57, 650.43pt x 291.00719pt>
+<img/shadow-reboot.pdf, id=159, 650.43pt x 291.00719pt>
 File: img/shadow-reboot.pdf Graphic file (type pdf)
 <use img/shadow-reboot.pdf>
 Package pdftex.def Info: img/shadow-reboot.pdf  used on input line 76.
@@ -1120,7 +1208,7 @@ Package pdftex.def Info: img/shadow-reboot.pdf  used on input line 76.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/vm.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<img/vm.pdf, id=81, 433.62pt x 291.00719pt>
+<img/vm.pdf, id=182, 433.62pt x 291.00719pt>
 File: img/vm.pdf Graphic file (type pdf)
 <use img/vm.pdf>
 Package pdftex.def Info: img/vm.pdf  used on input line 99.
@@ -1129,7 +1217,7 @@ Package pdftex.def Info: img/vm.pdf  used on input line 99.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/dynamic.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<img/dynamic.pdf, id=94, 361.35pt x 363.27718pt>
+<img/dynamic.pdf, id=195, 361.35pt x 363.27718pt>
 File: img/dynamic.pdf Graphic file (type pdf)
 <use img/dynamic.pdf>
 Package pdftex.def Info: img/dynamic.pdf  used on input line 118.
@@ -1146,36 +1234,155 @@ Package pdftex.def Info: img/dynamic.pdf  used on input line 118.
 
  (./biblio.tex
 (./rpz_khamzina.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 32--37
-[]\T2A/cmr/m/n/14.4 Instant OS Updates via Userspace Checkpoint-and-Restart /
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
+[]\T2A/cmr/m/n/14.4 Linux Kernel History Report 2020 / The Linux Foundation.
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 60--65
-[]\T2A/cmr/m/n/14.4 Live updating operating systems using virtualization / Haib
-o Chen,
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
+\T2A/cmr/m/n/14.4 San Francisco: The Linux Foundation, 2020. 08.  URL:
  []
 
 
-Underfull \hbox (badness 2452) in paragraph at lines 68--71
+Underfull \hbox (badness 5288) in paragraph at lines 29--34
+[]\T2A/cmr/m/n/14.4 Fox Richard. Linux with Operating System Concepts.  London:
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--34
+\T2A/cmr/m/n/14.4 Chapman and Hall/CRC, 2021. 11.  Ñ. 1--620.  URL:
+ []
+
+
+Underfull \hbox (badness 7433) in paragraph at lines 37--43
+[]\T2A/cmr/m/n/14.4 Zhen Yanjie, Zhang Wei. Is It Possible to Automatically Por
+t
+ []
+
+
+Underfull \hbox (badness 6493) in paragraph at lines 37--43
+\T2A/cmr/m/n/14.4 Kernel Modules? // New York, APSys '18: Proceedings of the
+ []
+
+
+Overfull \hbox (7.52362pt too wide) in paragraph at lines 37--43
+\T2A/cmr/m/n/12 https://www.researchgate.net/publication/327811028_Is_It_Possib
+le_to_Automatically 
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 46--52
+\T2A/cmr/m/n/14.4 Construction // New York, roceedings of the 26th ACM SIGSOFT
+ []
+
+
+Overfull \hbox (12.10452pt too wide) in paragraph at lines 55--62
+\T2A/cmr/m/n/12 https://www.researchgate.net/publication/221137837_Live_updatin
+g_operating_systems 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--80
+[]\T2A/cmr/m/n/14.4 Siniavine Maxim, Goel Ashvin. Seamless kernel updates //
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--80
+\T2A/cmr/m/n/14.4 Budapest, Proceedings of the International Conference on
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 74--80
+\T2A/cmr/m/n/14.4 Dependable Systems and Networks.  2013. 06.  Ñ. 1--12.  URL:
+ []
+
+[16
+
+
+
+]
+Underfull \hbox (badness 2368) in paragraph at lines 83--90
+\T2A/cmr/m/n/14.4 Conference (USENIX ATC 16).  2016. 06.  Ñ. 605--619.  URL:
+ []
+
+
+Overfull \hbox (1.3711pt too wide) in paragraph at lines 93--100
+\T2A/cmr/m/n/12 https://www.researchgate.net/publication/322260073_Checkpoint_a
+nd_restore_of_file 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--118
+[]\T2A/cmr/m/n/14.4 Lagar-Cavilla H. Andr^^Aes, Whitney. SnowFlock: Rapid Virtu
+al
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--118
+\T2A/cmr/m/n/14.4 Machine Cloning for Cloud Computing // New York,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--118
+\T2A/cmr/m/n/14.4 Proceedings of the 4th ACM European Conference on
+ []
+
+
+Underfull \hbox (badness 5036) in paragraph at lines 111--118
+\T2A/cmr/m/n/14.4 Computer Systems, EuroSys'09.  2009. 01.  Ñ. 1--12.  URL:
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 130--137
+[]\T2A/cmr/m/n/14.4 Makris Kristis, Ryu Kyung. Dynamic and adaptive updates of 
+non-
+ []
+
+
+Overfull \hbox (4.79523pt too wide) in paragraph at lines 130--137
+\T2A/cmr/m/n/12 https://www.researchgate.net/publication/221351757_Dynamic_and_
+adaptive_updates 
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 140--145
 []\T2A/cmr/m/n/14.4 Kaashoek M., Arnold Jeffrey. Ksplice: Automatic Rebootless 
 Kernel
  []
 
-)) [16
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 148--154
+[]\T2A/cmr/m/n/14.4 Arras Paul-Antoine, Andronidis. SaBRe: load-time selective
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 148--154
+\T2A/cmr/m/n/14.4 binary rewriting // Berlin, International Journal on Software
 
-] (./rpz_khamzina.aux (./contents.aux) (./introduction.aux)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--154
+\T2A/cmr/m/n/14.4 Tools for Technology Transfer.  2022. 01.  Ñ. 829--832.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--154
+\T2A/cmr/m/n/14.4 URL: \T2A/cmr/m/n/12 https://www.researchgate.net/publication
+/358018186_SaBRe_load-
+ []
+
+)) [18] (./rpz_khamzina.aux (./contents.aux) (./introduction.aux)
 (./analysis.aux) (./methods.aux) (./conclusion.aux) (./biblio.aux)) ) 
 Here is how much of TeX's memory you used:
- 28488 strings out of 482080
- 723125 string characters out of 5941728
- 1086134 words of memory out of 5000000
- 43019 multiletter control sequences out of 15000+600000
+ 28512 strings out of 482080
+ 723583 string characters out of 5941728
+ 1082248 words of memory out of 5000000
+ 43039 multiletter control sequences out of 15000+600000
  542975 words of font info for 41 fonts, out of 8000000 for 9000
  766 hyphenation exceptions out of 8191
- 78i,8n,107p,1314b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 78i,18n,107p,1333b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/re
 gina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/re
 gina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/re
@@ -1186,10 +1393,10 @@ regina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk> </home/
 regina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/
 regina/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx3583.600pk></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-Output written on rpz_khamzina.pdf (14 pages, 308528 bytes).
+Output written on rpz_khamzina.pdf (18 pages, 613735 bytes).
 PDF statistics:
- 441 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
+ 585 PDF objects out of 1000 (max. 8388607)
+ 192 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
