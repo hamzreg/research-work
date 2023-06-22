@@ -1,10 +1,15 @@
 # Методы внесения изменений в ядро Linux
 
-В [работе](https://drive.google.com/file/d/1m_wKZn6kCdRUzKSgf6aRNeuJMatuFhj6/view?usp=sharing "расчетно-пояснительная записка") рассмотрены:
+В научно-исследовательской работе рассмотрены:
 
 * методы, требующие перезагрузки системы;
 * метод переноса;
 * динамический метод.
+
+### Документация
+
+* [презентация](https://drive.google.com/file/d/1dR-Jlrdev8LOEok9UPl1zfwqvayO5vR4/view?usp=sharing "презентация");
+* [расчетно-пояснительная записка](https://drive.google.com/file/d/1m_wKZn6kCdRUzKSgf6aRNeuJMatuFhj6/view?usp=sharing "расчетно-пояснительная записка").
 
 ```
 5 семестр, ИУ7, МГТУ им. Н. Э. Баумана, 2021.
